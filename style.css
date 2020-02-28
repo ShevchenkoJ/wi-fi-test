@@ -247,8 +247,8 @@ body {
     body {
         background-image: url(images/banner-mobile.png);
         background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: bottom;    
+        background-size: 50%;
+        background-position: bottom center;    
         min-width: unset;
     }
 }
