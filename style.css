@@ -206,9 +206,6 @@ body {
 }
 
 @media screen and (max-width: 1600px) {
-    :root {
-        font-size: 7px;
-    }
     .phrace_background {
         display: flex;
         align-items: center;
@@ -223,6 +220,10 @@ body {
         top: -15.3rem;
         right: -8rem;
     }
+    :root {
+        font-size: 7px;
+    }
+    
 }
 
 @media screen and (max-width: 1024px) {
