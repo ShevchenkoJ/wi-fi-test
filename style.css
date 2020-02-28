@@ -224,7 +224,8 @@ body {
         right: -25rem;
     }
 }
-@media screen and (max-width: 1600px) {
+
+@media screen and (max-width: 1920px) {
 
     :root {
         font-size: 7px;
