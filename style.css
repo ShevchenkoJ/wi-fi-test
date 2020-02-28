@@ -190,8 +190,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: -200px;
-    right: -150px;
+    top: -15.3rem;
+    right: -8rem;
 }
 
 .phrace_logo {
@@ -206,7 +206,7 @@ body {
 }
 
 @media screen and (max-width: 1600px) {
-    .phrace_background {
+    /* .phrace_background {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -219,7 +219,7 @@ body {
         position: absolute;
         top: -15.3rem;
         right: -8rem;
-    }
+    } */
     :root {
         font-size: 7px;
     }
