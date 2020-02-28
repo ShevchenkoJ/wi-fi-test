@@ -190,8 +190,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: -20rem;
-    right: -15rem;
+    top: -200px;
+    right: -150px;
 
 }
 
@@ -209,6 +209,11 @@ body {
 @media screen and (max-width: 1600px) {
     :root {
         font-size: 7px;
+    }
+    .phrace_background {
+        position: absolute;
+        top: -20rem;
+        right: -15rem;
     }
 }
 
