@@ -205,8 +205,28 @@ body {
     background-position: top;
 }
 
+@media screen and (max-width: 3000px) {
+    .phrace_background {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        height: 25rem;
+        background-image: url("images/phrace.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: -30rem;
+        right: -25rem;
+    }
+}
 @media screen and (max-width: 1600px) {
-    /* .phrace_background {
+
+    :root {
+        font-size: 7px;
+    }
+    .phrace_background {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -219,9 +239,6 @@ body {
         position: absolute;
         top: -15.3rem;
         right: -8rem;
-    } */
-    :root {
-        font-size: 7px;
     }
     
 }
