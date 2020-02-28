@@ -227,6 +227,25 @@ body {
 
 @media screen and (max-width: 1850px) {
 
+    .phrace_background {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        height: 25rem;
+        background-image: url("images/phrace.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: -15.3rem;
+        right: -8rem;
+    }
+    
+}
+
+@media screen and (max-width: 1600px) {
+
     :root {
         font-size: 7px;
     }
