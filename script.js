@@ -10,7 +10,7 @@ setTimeout(function(){
    
     hideVideoWrapper();
 
-  }, 500); 
+  }, 5000); 
   
-  //change 500 to the correct video duration in miliseconds
+  //change 5000 to the correct video duration in miliseconds
 
