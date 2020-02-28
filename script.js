@@ -1,4 +1,7 @@
-$(".phrace_background").click(function() {
-    $(".video_wrapper ").show();
-});
+function videoEnded() {
+    
+    $(".video_wrapper").hide(); 
+        
+      
+}
 

@@ -37,7 +37,7 @@ body {
 }
 
 .video_wrapper {
-    display: none;
+    display: block;
     width: 100vw;
     height: 100vh;
     z-index: 100;
@@ -45,12 +45,15 @@ body {
     top: 0;
     left: 0;
 }
- /* --- set .video_wrapper { display: block } to show video --- */
+
+/* rule below contains video-js class */
 
  .video_wrapper .my-video-dimensions {
     width: 100vw;
     height: 100vh;
 }
+
+/* rule above contains video-js class */
 
 .content_wrapper {
     display: flex;
