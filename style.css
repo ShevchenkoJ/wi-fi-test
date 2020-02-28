@@ -37,7 +37,9 @@ body {
 }
 
 .video_wrapper {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     z-index: 100;
@@ -46,7 +48,8 @@ body {
     left: 0;
 }
 
-/* rule below contains video-js class */
+/*  -- rule below contains video-js class --
+    -- the rule allows to set custom iframe size --  */
 
  .video_wrapper .my-video-dimensions {
     width: 100vw;
