@@ -1,8 +1,9 @@
 
-var myPlayer = videojs.getPlayer('#my-video');
-    myPlayer.on('loadedmetadata', function() {
+
+function videoAutoplay() {
+    var myPlayer = videojs.getPlayer('#my-video');
     myPlayer.play();
-});
+}
 
 function videoEnded() {
     
